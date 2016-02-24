@@ -1,0 +1,56 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+.logo {
+  border-radius: 50%;
+  margin-top: 30px;
+
+  width: 100px;
+  height: 100px;
+  background-color: #D5245B;
+
+}
+.logo > p{
+  font-family: 'Henny Penny', cursive;
+  font-size: 400%;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+}
+.text-big{
+  font-size: 350%;
+  font-kerning: auto;
+}
+.text-heading-small{
+  color: #777;
+  font-size: 140%
+}
+.border1 {
+  border-color: #D0C4AB;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+
+.background-wrap{
+  background-color: black;
+}
+.push-down{
+  padding-top: 20px;
+}
+.push-over{
+  margin: 20px;
+}
+.text-mycolor{
+    color: #D0C4AB;
+  }
+.text-medium{
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    font-weight: 400;
+  }
+.text-small{
+    font-family: 'Lato', sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+  }

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> A Portfolio Mock-up</title>
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Henny+Penny|Shojumaru' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="logo"><p class="text-center">E</p></div>
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="text-big">Emmy Ebanks</h1>
+        <h2 class="text-heading-small">Front-end Samurai</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="border1">
+      </div>
+    </div>
+<!-- an additional div to wrap a background color -->
+    <div class="background-wrap">
+      <div class="push-down">
+        <img class="img-responsive" alt="responsive image" src="https://unsplash.it/1140/350?image=763">
+      </div>
+      <div class="col-md-12 text-mycolor push-over">
+        <h2 class="text-medium text-uppercase">Featured Katana</h2>
+      </div>
+<!-- TODO: replace images with meaningful images, personalize headings and links-->
+<!-- 2 rows of featured work -->
+     <div class="row text-center text-mycolor push-over">
+        <div class="col-md-6">
+          <img class="img-responsive" alt="responsive image" src="https://unsplash.it/555/300?image=859" data-toggle="modal" data-target="#favapp">
+          <h3 class="text-medium text-uppercase">Favorite App</h3>
+          <p><a class="text-small text-mycolor" href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive" alt="responsive image" src="https://unsplash.it/555/300?image=855" data-toggle="modal" data-target="#portframe">
+          <h3 class="text-medium text-uppercase">Portfolio Framework</h3>
+          <p><a class="text-small text-mycolor" href="http://github.com">Link to project</a></p>
+        </div>
+      </div>
+      <div class="row text-center text-mycolor push-over">
+        <div class="col-md-6">
+          <img class="img-responsive center-block" alt="responsive image" src="https://unsplash.it/555/300?image=846" data-toggle="modal" data-target="#pixyplay">
+          <h3 class="text-medium text-uppercase">PixyPlay</h3>
+          <p><a class="text-small text-mycolor" href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive center-block" alt="responsive image" src="https://unsplash.it/555/300?image=844" data-toggle="modal" data-target="#firstweb">
+          <h3 class="text-medium text-uppercase">My First Website</h3>
+          <p><a class="text-small text-mycolor" href="http://github.com">Link to project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+<!-- TODO: add descriptions and meaningful images to modals-->
+  <div class="modal fade" id="favapp" tabindex="-1" role="dialog" aria-labelledby="1-ModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="1-ModalLabel">My Favorite App</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="responsive image" src="images/555.jpeg">
+          This was my first project in this class. I learned a lot about HTML and CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="portframe" tabindex="-1" role="dialog" aria-labelledby="2-ModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="2-ModalLabel">Portfolio Framework</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="responsive image" src="images/555.jpeg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="pixyplay" tabindex="-1" role="dialog" aria-labelledby="3-ModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="3-ModalLabel">PixyPlay</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="responsive image" src="images/555.jpeg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="firstweb" tabindex="-1" role="dialog" aria-labelledby="4-ModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="4-ModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="responsive image" src="images/555.jpeg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
